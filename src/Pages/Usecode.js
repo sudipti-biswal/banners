@@ -33,13 +33,13 @@ const Usecode = () => {
       <Container>
         <h1 style={nextlearn}>What To learn next</h1>
         <h6 style={studentview}>Students are viewing</h6>
-        <Row>
+        
             <Business />
-         </Row>
+         
         <h1 style={mystyle}>Top courses in Desing</h1>
-        <Row>
+        
             <Business />
-         </Row>
+         
   
         {/* Banner part start here */}
   
@@ -47,17 +47,17 @@ const Usecode = () => {
           <h1 style={banner}>BANNER</h1>
         </div>
         <h1 style={mystyle}>Top courses in Business</h1>
-         <Row>
+         
             <Business />
-         </Row>
+         
         <h1 style={mystyle}>Top courses in Development</h1>
-        <Row>
+       
             <Development />
-         </Row>
+         
         <h1 style={mystyle}>Top courses in IT & Software</h1>
-        <Row>
+      
             <Soft />
-         </Row>
+        
       </Container>
     );
   }

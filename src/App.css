@@ -1,5 +1,10 @@
+.card{
+  margin :15px;
+}
+
 .card-wrap{
   position: relative;
+  margin-top: 15px;
 }
 .arrow{
   position: absolute;
